@@ -362,6 +362,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/0.scripts/CharacterAnimation.cs"
 "Assets/0.scripts/MainCamera.cs"
+"Assets/0.scripts/RedEyeGlow.cs"
 "Assets/CharacterEditorPackage/Code/AbilityModules/AbilityModule.cs"
 "Assets/CharacterEditorPackage/Code/AbilityModules/AbilityModuleManager.cs"
 "Assets/CharacterEditorPackage/Code/AbilityModules/AbilitySlot.cs"

@@ -89,6 +89,7 @@
     <Compile Include="Assets\CharacterEditorPackage\Code\AbilityUnlocks\LevelStartAbilityLock.cs" />
     <Compile Include="Assets\CharacterEditorPackage\Code\Game\DemoObjects\RunnerDemoObstacles\RunnerDemoBalancer.cs" />
     <Compile Include="Assets\CharacterEditorPackage\Code\AbilityModules\EdgeJumpModule.cs" />
+    <Compile Include="Assets\0.scripts\RedEyeGlow.cs" />
     <Compile Include="Assets\CharacterEditorPackage\Code\Game\DemoObjects\2.5DDemo\WorldTurnTrigger.cs" />
     <Compile Include="Assets\CharacterEditorPackage\Code\Game\DemoObjects\OneWayPlatform.cs" />
     <Compile Include="Assets\CharacterEditorPackage\Code\Input\DirectionInput.cs" />

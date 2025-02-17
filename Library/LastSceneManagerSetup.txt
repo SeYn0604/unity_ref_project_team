@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/CharacterEditorPackage/Scenes/AutoRunnerDemoScene.unity
+- path: Assets/CharacterEditorPackage/Scenes/MobileInputDemoScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

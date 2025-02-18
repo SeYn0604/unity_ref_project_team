@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Github\\UnityProject\\unity_ref_project_team\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|c:\\github\\unityproject\\unity_ref_project_team\\assets\\10.others\\2dinfiniterunnertoolkit\\scripts\\c#\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|solutionrelative:assets\\10.others\\2dinfiniterunnertoolkit\\scripts\\c#\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|c:\\github\\unityproject\\unity_ref_project_team\\assets\\0.scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\UnityProject\\unity_ref_project_team\\assets\\0.scripts\\characteranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\0.scripts\\characteranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|C:\\Github\\UnityProject\\unity_ref_project_team\\assets\\10.others\\2dinfiniterunnertoolkit\\scripts\\c#\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|solutionrelative:assets\\10.others\\2dinfiniterunnertoolkit\\scripts\\c#\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\CharacterAnimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\0.scripts\\CharacterAnimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|C:\\Github\\UnityProject\\unity_ref_project_team\\assets\\0.scripts\\redeyeglow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerManager.cs",
               "DocumentMoniker": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\10.others\\2DInfiniteRunnerToolkit\\Scripts\\C#\\Managers\\PlayerManager.cs",
               "RelativeDocumentMoniker": "Assets\\10.others\\2DInfiniteRunnerToolkit\\Scripts\\C#\\Managers\\PlayerManager.cs",
@@ -50,18 +50,17 @@
               "RelativeToolTip": "Assets\\10.others\\2DInfiniteRunnerToolkit\\Scripts\\C#\\Managers\\PlayerManager.cs",
               "ViewState": "AgIAAG8BAAAAAAAAAAAkwIYBAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:05:31.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T10:05:31.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\0.scripts\\Character.cs",
               "ToolTip": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\Character.cs",
               "RelativeToolTip": "Assets\\0.scripts\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA9wC4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T10:05:01.279Z",
               "EditorCaption": ""
@@ -112,8 +111,7 @@
               "RelativeToolTip": "Assets\\CharacterEditorPackage\\Code\\Camera\\BasicCameraTracker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T13:52:09.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T13:52:09.683Z"
             },
             {
               "$type": "Document",
@@ -125,8 +123,7 @@
               "RelativeToolTip": "Assets\\0.scripts\\CharacterAnimation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T13:43:16.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T13:43:16.003Z"
             }
           ]
         }

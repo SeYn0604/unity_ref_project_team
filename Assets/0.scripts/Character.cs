@@ -44,7 +44,7 @@ public class Character : MonoBehaviour
         // 점프 중일 때 애니메이션 정지, 착지 시 재개
         if (!isGrounded)
         {
-            //animator.speed = 0f;
+            animator.speed = 0f;
         }
         else
         {

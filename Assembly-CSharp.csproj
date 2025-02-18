@@ -67,8 +67,8 @@
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Camera\BasicCameraTracker.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Game\DemoObjects\Balancer.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Input\AutoRunnerJumpOverride.cs" />
-    <Compile Include="Assets\10.others\CharacterEditorPackage\Code\AbilityModules\SwimModule.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\MissionTemplates\DistanceMission.cs" />
+    <Compile Include="Assets\10.others\CharacterEditorPackage\Code\AbilityModules\SwimModule.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Game\DemoObjects\2.5DDemo\WorldTurnTrigger.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\Managers\MissionManager.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\AbilityUnlocks\LevelStartAbilityLock.cs" />
@@ -106,6 +106,7 @@
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\AbilityModules\NetClimbModule.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\LevelGenerator\TorpedoLayer.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\MissionTemplates\CrashMission.cs" />
+    <Compile Include="Assets\0.scripts\MapManager.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\Managers\ResolutionManager.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\Managers\GUIManager.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Physics\CapsuleController\CapsuleParameters.cs" />
@@ -152,8 +153,8 @@
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Game\DemoObjects\Mover.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\AbilityModules\DropDownModule.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\Follow.cs" />
-    <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Physics\CapsuleController\CapsuleCollision.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Game\DemoObjects\RunnerDemoObstacles\RunnerDemoBalancer.cs" />
+    <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Physics\CapsuleController\CapsuleCollision.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\MissionTemplates\ShopMission.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Game\ExtraPlayerScripts\OnCollisionParticleSpawner.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\MissionTemplates\MissionTemplate.cs" />

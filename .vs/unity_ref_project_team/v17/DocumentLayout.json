@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Github\\UnityProject\\unity_ref_project_team\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|c:\\github\\unityproject\\unity_ref_project_team\\assets\\0.scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|C:\\Github\\UnityProject\\unity_ref_project_team\\assets\\0.scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|c:\\github\\unityproject\\unity_ref_project_team\\assets\\0.scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|C:\\Github\\UnityProject\\unity_ref_project_team\\assets\\10.others\\2dinfiniterunnertoolkit\\scripts\\c#\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MapManager.cs",
               "DocumentMoniker": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\MapManager.cs",
               "RelativeDocumentMoniker": "Assets\\0.scripts\\MapManager.cs",
@@ -71,15 +71,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\0.scripts\\Character.cs",
               "ToolTip": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\Character.cs",
               "RelativeToolTip": "Assets\\0.scripts\\Character.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowC4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:05:01.279Z"
+              "WhenOpened": "2025-02-18T10:05:01.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

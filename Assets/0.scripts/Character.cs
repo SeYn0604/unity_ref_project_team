@@ -68,8 +68,7 @@ public class Character : MonoBehaviour
             speed = 0f;
             rb.velocity = Vector2.zero;
 
-            // AI는 0.5초 더 이동 후 사망 애니메이션 재생 (코루틴 호출)
-            StartCoroutine(DelayedAIDeath(collision.gameObject, 0.2f));
+            StartCoroutine(DelayedAIDeath(collision.gameObject, 0f));
         }
     }
 

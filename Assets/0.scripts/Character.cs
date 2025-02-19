@@ -10,6 +10,9 @@ public class Character : MonoBehaviour
     public float speed = 5f;                            // 자동 이동 속도
     public float jumpForce = 10f;                       // 점프 시 위로 가해질 힘
     private bool isGrounded = false;                    // 땅에 닿아있는지 체크
+    [Header("더블 점프 설정")]
+    public int maxJumpCount = 2;                        // 최대 점프 횟수 (2단 점프)
+    private int jumpCount = 0;                          // 현재 점프 횟수
     [Header("충돌 애니메이션 설정")]
     public string victoryAnimationName = "victory";     // 플레이어가 ai랑 겹쳤을 때 출력할 애니메이션
     public string loseAnimationName = "lose";           // ai가 플레이어랑 겹쳤을 때 출력할 애니메이션
@@ -35,9 +38,10 @@ public class Character : MonoBehaviour
         // 점프 입력
         if(gameObject.CompareTag("player"))
         {
-            if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !collisionOccurred)
+            if (Input.GetKeyDown(KeyCode.Space) && jumpCount < maxJumpCount && !collisionOccurred)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                jumpCount++;      // 점프 카운트 증가
                 isGrounded = false;
             }
         }

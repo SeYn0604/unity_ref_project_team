@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Game\ExtraPlayerScripts\OnJumpParticleSpawner.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\Managers\LevelManager.cs" />
+    <Compile Include="Assets\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Physics\CapsuleController\CapsuleColliderState\CCSideCastInfo.cs" />
     <Compile Include="Assets\10.others\2DInfiniteRunnerToolkit\Scripts\C#\Managers\AudioManager.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Camera\BasicCameraTracker.cs" />
@@ -166,6 +167,7 @@
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Physics\ControlledCollider.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\AbilityModules\WallStickModule.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Sprites\SpriteAnimator.cs" />
+    <Compile Include="Assets\Free 2D Cartoon Parallax Background\Demo\Script\ParallaxBackground_0.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Input\ButtonInput.cs" />
     <Compile Include="Assets\0.scripts\Character.cs" />
     <Compile Include="Assets\10.others\CharacterEditorPackage\Code\Game\DemoObjects\OneWayPlatform.cs" />

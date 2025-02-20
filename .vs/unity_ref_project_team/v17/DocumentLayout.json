@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Github\\UnityProject\\unity_ref_project_team\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|C:\\Github\\UnityProject\\unity_ref_project_team\\assets\\0.scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|c:\\github\\unityproject\\unity_ref_project_team\\assets\\0.scripts\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\Character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\0.scripts\\Character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|C:\\Github\\UnityProject\\unity_ref_project_team\\assets\\0.scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2E80A6C-97D1-2D37-DC1A-E6BC8A0B1A84}|Assembly-CSharp.csproj|C:\\Github\\UnityProject\\unity_ref_project_team\\assets\\10.others\\2dinfiniterunnertoolkit\\scripts\\c#\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,44 +50,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Aicharacter.cs",
               "DocumentMoniker": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\Aicharacter.cs",
               "RelativeDocumentMoniker": "Assets\\0.scripts\\Aicharacter.cs",
               "ToolTip": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\Aicharacter.cs",
               "RelativeToolTip": "Assets\\0.scripts\\Aicharacter.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T09:30:21.376Z"
+              "WhenOpened": "2025-02-19T09:30:21.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerCharacter.cs",
               "DocumentMoniker": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\PlayerCharacter.cs",
               "RelativeDocumentMoniker": "Assets\\0.scripts\\PlayerCharacter.cs",
               "ToolTip": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\PlayerCharacter.cs",
               "RelativeToolTip": "Assets\\0.scripts\\PlayerCharacter.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAwwGMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T09:27:49.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MapManager.cs",
               "DocumentMoniker": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\MapManager.cs",
               "RelativeDocumentMoniker": "Assets\\0.scripts\\MapManager.cs",
               "ToolTip": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\MapManager.cs",
               "RelativeToolTip": "Assets\\0.scripts\\MapManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:38:32.742Z"
+              "WhenOpened": "2025-02-18T10:38:32.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Github\\UnityProject\\unity_ref_project_team\\Assets\\0.scripts\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\0.scripts\\Character.cs",

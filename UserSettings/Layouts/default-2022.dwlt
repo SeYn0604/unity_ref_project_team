@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3440
     height: 1349
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 171
+  controlID: 49
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -829,9 +829,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 40.48859, y: 11.425545, z: -3.1907473}
+    m_Target: {x: -3.8309307, y: 5.5320034, z: -3.1907473}
     speed: 2
-    m_Value: {x: 40.48859, y: 11.425545, z: -3.1907473}
+    m_Value: {x: -3.8309307, y: 5.5320034, z: -3.1907473}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1052,7 +1052,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 24034
+  m_LastSelectedObjectID: 24060
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1091,9 +1091,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d45d0000
-      m_LastClickedID: 24020
-      m_ExpandedIDs: 10fbffff1c5e0000325e0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 10fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1214,7 +1214,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 90680000
     m_LastClickedID: 26768
-    m_ExpandedIDs: 00000000665e0000c4600000c6600000c8600000ca600000cc600000ce600000d0600000d2600000d4600000d6600000d8600000da600000dc600000de600000e0600000e2600000e4600000
+    m_ExpandedIDs: 00000000665e0000c4600000c6600000c8600000ca600000cc600000ce600000d0600000d2600000d4600000d6600000d8600000da600000dc600000de600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1242,18 +1242,18 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000665e0000c4600000c6600000c8600000ca600000cc600000ce600000d0600000d2600000d4600000d6600000da600000dc600000de600000e4600000
+    m_ExpandedIDs: ffffffff00000000665e0000c4600000c6600000c8600000ca600000cc600000ce600000d0600000d2600000d4600000d6600000d8600000da600000dc600000de600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PlayerCharacter
-      m_OriginalName: PlayerCharacter
+      m_Name: Aicharacter
+      m_OriginalName: Aicharacter
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 21114
+      m_UserData: 20340
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0

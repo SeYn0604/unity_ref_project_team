@@ -23,7 +23,7 @@ public class PlayerCharacter : MonoBehaviour
     private int jumpCount = 0;                      // 현재 점프 횟수
 
     [Header("충돌 무효화 시간 설정")]
-    public float ignoreDuration = 3f;               // 충돌 무효화 시간(초)
+    public float ignoreDuration = 2f;               // 충돌 무효화 시간(초)
 
     // AI와의 충돌 발생 시 정지
     private bool aiCollisionOccurred = false;

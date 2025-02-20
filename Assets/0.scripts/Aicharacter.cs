@@ -49,13 +49,4 @@ public class AICharacter : MonoBehaviour
             rb.velocity = Vector2.zero;
         }
     }
-    /*
-    // 외부 호출로 AI의 이동을 멈추기 위한 메서드
-    public void StopMovement()
-    {
-        collisionOccurred = true;
-        speed = 0f;
-        if (rb != null)
-            rb.velocity = Vector2.zero;
-    }*/
 }

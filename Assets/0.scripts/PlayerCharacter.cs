@@ -5,6 +5,7 @@ public class PlayerCharacter : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;          // 스프라이트 컴포넌트 참조
 
     [Header("이동/점프 설정")]
     public float startSpeed = 5f;                   // 시작 속도
@@ -22,15 +23,16 @@ public class PlayerCharacter : MonoBehaviour
     private int jumpCount = 0;                      // 현재 점프 횟수
 
     [Header("충돌 무효화 시간 설정")]
-    public float ignoreDuration = 3f;             // 충돌 무효화 시간(초)
+    public float ignoreDuration = 3f;               // 충돌 무효화 시간(초)
 
-    // AI와의 충돌 발생 시 영구 정지를 위한 플래그
+    // AI와의 충돌 발생 시 정지
     private bool aiCollisionOccurred = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); // SpriteRenderer 초기화
         currentSpeed = startSpeed;
     }
 
@@ -92,6 +94,9 @@ public class PlayerCharacter : MonoBehaviour
             Collider2D playerCollider = GetComponent<Collider2D>();
             Collider2D obstacleCollider = collision.collider;
             StartCoroutine(DisableCollisionForSeconds(playerCollider, obstacleCollider, ignoreDuration));
+
+            // 무효화 시간 동안 스프라이트 깜빡임 효과 적용
+            StartCoroutine(BlinkSprite(ignoreDuration, 0.1f));
         }
     }
 
@@ -121,5 +126,21 @@ public class PlayerCharacter : MonoBehaviour
         Physics2D.IgnoreCollision(col1, col2, true);
         yield return new WaitForSeconds(duration);
         Physics2D.IgnoreCollision(col1, col2, false);
+    }
+
+    // 무효화 시간 동안 스프라이트 깜빡임 효과를 주는 코루틴
+    IEnumerator BlinkSprite(float duration, float blinkInterval)
+    {
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(blinkInterval);
+            spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(blinkInterval);
+            elapsed += blinkInterval * 2;
+        }
+        // 깜빡임 종료 후 스프라이트가 활성 상태인지 확인
+        spriteRenderer.enabled = true;
     }
 }

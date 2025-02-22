@@ -6,7 +6,7 @@ public class AICharacter : MonoBehaviour
     private Animator animator;
 
     [Header("이동 설정")]
-    public float speed = 5f;                             // AI는 항상 이 속도로 이동 
+    public float speed = 5f;                             // AI의 이동속도
 
     [Header("충돌 애니메이션 설정")]
     public string loseAnimationName = "lose";            // AI 패배 애니메이션
